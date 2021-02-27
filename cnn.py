@@ -18,7 +18,7 @@ labels = ['5e', '10e', '20e', '50e', '100e', '200e', '500e', '10d', '20d', '50d'
 
 train_images_path = 'Dataset/train'
 test_images_path_multiple = 'Dataset/test/multiple/'
-test_images_path_single = 'Dataset/test/one'
+test_images_path_single = 'Dataset/test/single'
 train_data = data.get_images(train_images_path)
 test_data = data.get_images(test_images_path_single)
 test_data.extend(data.get_multiple(test_images_path_multiple))

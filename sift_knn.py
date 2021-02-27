@@ -9,7 +9,7 @@ import time
 
 train_images_path = 'Dataset/train'
 test_images_path_multiple = 'Dataset/test/multiple/'
-test_images_path_single = 'Dataset/test/one'
+test_images_path_single = 'Dataset/test/single'
 saved_path = 'Saved'
 
 train_data = data.get_images(train_images_path)
